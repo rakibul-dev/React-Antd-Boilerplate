@@ -1,0 +1,13 @@
+@import "~antd/dist/antd.less";
+
+// >>> Primary
+@primary-color: #fb5231;
+// Ok
+// Bitton Flicker annimation disabled
+[ant-click-animating-without-extra-node="true"]::after {
+  display: none;
+}
+// Antd input focused disabled
+.ant-input-affix-wrapper-focused {
+  box-shadow: none;
+}
